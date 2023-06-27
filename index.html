@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <form class="form">
+    <label> 
+      Ім'я
+      <input type="text" name="user-name" placeholder="Вадим" pattern="^[a-z0-9_-]{3,15}$">
+    </label>
+    
+    <label>Електронна пошта
+      <input type="text" name="email" placeholder="example@email.com" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"></label>
+      
+      <label>
+        Пароль
+        <input
+        type="password" name="password" placeholder="qwerty1234" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"></label>
+        
+        <label>
+          Телефон
+          <input type="number" name="phone" placeholder="099999999" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+        </label>
+        <label >
+          Адреса:
+          <input type="text" name="address" placeholder="вул.Барнаульська,б.24-А">
+        </label>
+        <label>
+          Дата народження:
+          <input type="date" name="date-of-birth" placeholder="14.09.2005">
+        </label>
+    <samp><button type="submit">Зареєструватися</button><button type="reset">Очистити</button></samp>
+  </form>
+</body>
+
+</html>
